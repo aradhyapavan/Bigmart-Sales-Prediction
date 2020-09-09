@@ -9,59 +9,31 @@ defined. The aim is to build a predictive model and predict
 the sales of each product at a particular outlet.
 
 <h3>Data Description:</h3
-  • Itemjdentifier
+  • Item_Identifier
 Unique product ID
-• ltem
-_
-Weight
+• Item_Weight
 Weight of product
-• ltem
-_
-Fat
-_
-Content
+• Item_Fat_Content
 Whether the product is low fat or not
-• ltem
-_
-Visibility
+• Item_Visibility
 The % of total display area of all products in a
 store allocated to the particular product
-• ltem
-_
-Type
+• ltem_Type
 The category to which the product belongs
-• ltem
-_
-MRP
+• Item_MRP
 Maximum Retail Price (list price) of the product
-• Outletjdentifier
+• Outlet_identifier
 Unique store ID
-• Outlet
-_
-Establishment
-_
-Year
+• Outlet_Establishment_Year
 The year in which store was established
-• Outlet
-_
-Size
-The size of the store in terms of ground area
+• Outlet_Size
+  The size of the store in terms of ground area
 covered
-• Outlet
-_
-Location
-_
-Type
+• Outlet_Location_Type
 The type of city in which the store is located
-• Outlet
-_
-Type
-Whether the outlet is just a grocery store or
+• Outlet_Type
+  Whether the outlet is just a grocery store or
 some sort of supermarket
-• rtem
-_
-Outlet
-_
-Sales
+• Item_Outlet_Sales
 Sales of the product in the particular store. This
 is the outcome variable to be predicted.
